@@ -126,7 +126,7 @@ section {
   position: absolute;
   top: 0;
   left: 0;
-  background-image: url("../public/images/home-bg.png");
+  background-image: url("./components/data/images/home-bg.png");
   background-size: cover;
   background-attachment: fixed;
   z-index: -1;
@@ -213,7 +213,7 @@ section {
 }
 
 .hero .counter::after {
-  background-image: url("../public/images/some-facts-bg.png");
+  background-image: url("./components//data/images/some-facts-bg.png");
 }
 .grid4 .box {
   margin-top: -50px;
@@ -327,7 +327,7 @@ footer a{
   }
 
   .hero::after {
-    background-image: url("../public/images/home-bg.png");
+    background-image: url("./components/data/images/home-bg.png");
     background-size: cover;
     object-fit: cover;
     width: 100%;

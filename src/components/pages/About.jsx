@@ -1,6 +1,7 @@
 import React from 'react'
 import { Heading } from "../common/Heading"
 import {about} from '../data/dummydata'
+import iamge from '../data/images/1.jpg'
 export const About = () => {
   return (
     <>
@@ -10,7 +11,7 @@ export const About = () => {
             return(
                 < >
                     <div className='left' >
-                    <img src={nal.cover} alt='' data-aos='fade-down-right'/>
+                    <img src={iamge} alt='' data-aos='fade-down-right'/>
                     </div>
                  
                 <div className='right' data-aos='fade-down-left'>

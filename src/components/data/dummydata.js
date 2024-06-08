@@ -1,6 +1,13 @@
 import { PieChart, Code, BarChart,AddLocationAltOutlined, PhoneIphone, EmailOutlined, Facebook, YouTube, GitHub, Settings, CropRotate, ViewInAr } from "@mui/icons-material"
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faBootstrap, faCss3, faGithub, faGithubAlt, faHtml5, faJs, faReact, faSass } from "@fortawesome/free-brands-svg-icons"
+import iamge1 from '../data/images/port/1.png'
+import iamge2 from '../data/images/port/2.png'
+import iamge3 from '../data/images/port/3.png'
+import iamge4 from '../data/images/port/4.png'
+import iamge5 from '../data/images/port/5.png'
+import iamge6 from '../data/images/port/6.png'
+
 export const navlink = [
   {
     url: "/",
@@ -42,7 +49,7 @@ export const about = [
     Design: Responsive Web Design, UI/UX Principles, Figma, Adobe XD
     Version Control: Git, GitHub, GitLab
     Other: RESTful APIs, AJAX, JSON, SEO best practices`,
-    cover: "./images/1.jpg",
+    
   },
 ]
 export const services = [
@@ -129,7 +136,7 @@ export const project = [
 export const portfolio = [
   {
     id: 1,
-    cover: "../images/port/2.png",
+    cover: iamge2,
     name: "Brand",
     url: 'https://full-blue.vercel.app/',
     category: "marketing",
@@ -137,7 +144,7 @@ export const portfolio = [
   },
   {
     id: 2,
-    cover: "../images/port/1.png",
+    cover: iamge1,
     name: "Brand",
     url: 'https://senior-phi.vercel.app/',
     category: "design",
@@ -145,7 +152,7 @@ export const portfolio = [
   },
   {
     id: 3,
-    cover: "../images/port/3.png",
+    cover: iamge3,
     name: "Brand",
     url: 'https://advansid.vercel.app/',
     category: "development",
@@ -153,7 +160,7 @@ export const portfolio = [
   },
   {
     id: 4,
-    cover: "../images/port/4.png",
+    cover: iamge4,
     name: "Brand",
     url: 'https://dasshdbord-89bbf0sl5-elbrins8850s-projects.vercel.app/',
     category: "marketing",
@@ -161,7 +168,7 @@ export const portfolio = [
   },
   {
     id: 5,
-    cover: "../images/port/5.png",
+    cover: iamge5,
     name: "Brand",
     url: 'https://company-eight-eosin.vercel.app/',
     category: "design",
@@ -169,7 +176,7 @@ export const portfolio = [
   },
   {
     id: 6,
-    cover: "../images/port/6.png",
+    cover: iamge6,
     name: "Brand",
     url: 'https://api-templete-kappa.vercel.app/',
     category: "development",

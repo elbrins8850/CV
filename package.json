@@ -1,5 +1,5 @@
 {
-  "homepage": "https://elbrins8850.github.io/Portfolio",
+  "homepage": "https://elbrins8850.github.io/Cv_person",
   "name": "portfolio",
   "version": "0.1.0",
   "private": true,
@@ -34,8 +34,8 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "predeploy":"npm run build",
-    "deploy": ""
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
