@@ -198,6 +198,7 @@ export const contact = [
   {
     icon: <EmailOutlined />,
     text1: "elbrins8850@gmail.com",
+    text2: "mahmoud8850@gmail.com",
   },
 ]
 export const social = [

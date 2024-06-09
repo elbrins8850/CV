@@ -84,6 +84,7 @@ header a {
   header .nav {
     display: none;
     transition: 0.3s;
+    
   }
   header a {
     width: 100%;
@@ -94,16 +95,18 @@ header a {
     display: block;
     font-size: 25px;
     background: none;
+    
   }
   .hideMenu {
     max-width: auto;
     display: block;
     position: absolute;
-    top: 15vh;
+    top: 10vh;
     left: 0;
-    width: 93%;
+    width: 100%;
     background-color: var(--headingColor);
-    transition: 0.3s ;
+    
+    
   }
 }
 /*---------header-------------*/
@@ -174,7 +177,16 @@ section {
 .right {
   width: 65%;
 }
+@media screen and (max-width: 768px) {
+  .about .left{
+    width: 100%;
+    align-items: center;
+    text-align: center;
+  }
+ 
+ 
 
+}
 /*---------about-------------*/
 .grid3 {
   display: grid;
@@ -201,6 +213,17 @@ section {
   place-items: center;
   text-align: center;
 }
+@media screen and (max-width: 768px) {
+  .services .box {
+    
+    padding: 10px;
+  }
+ 
+  .services .box p{
+    font-size: 12px;
+  }
+
+}
 /*---------counter-------------*/
 .counter{
   margin-top: 80px;
@@ -226,6 +249,32 @@ section {
 .grid4 .box .text{
   font-size: 25px;
   color: #bac8d3;
+}
+@media screen and (max-width: 768px) {
+  .counter{
+    margin-top: 80px;
+    height: 100vh;
+    margin-bottom: 15px;
+  
+
+  }
+  .counter{
+    width: 100%;
+  }
+  .counter h1{
+    margin-top: 10px;
+  }
+
+  .counter .grid4 {
+    width: 70%;
+      display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .grid4 .box {
+    margin-top:-100px;
+  }
 }
 
 /*---------counter-------------*/
@@ -283,6 +332,13 @@ article .box:hover .overlay,
 article .box:hover .overlay::after{
   opacity: 1;
 }
+@media screen and (max-width: 768px) {
+
+  
+  .catButton button{
+    margin: 0 30px 25px;
+  }
+}
 /*---------Projects-------------*/
 /*---------contact-------------*/
 .contact {
@@ -305,6 +361,15 @@ article .box:hover .overlay::after{
   margin: 10px 0;
   border-radius: 5px;
 }
+@media screen and (max-width: 768px) {
+  .contact .left{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+  }
+  
+}
 /*---------contact-------------*/
 
 footer{
@@ -317,15 +382,21 @@ footer a{
   margin: 5px;
   color: var(--primaryColor);
 }
+
 /*---------Footer-------------*/
 @media screen and (max-width: 768px) {
   .hero {
     height: 60vh;
   }
   .heroContent {
-    max-width: 80%;
+    max-width: 90%;
   }
-
+  .heroContent h1{
+    font-size: 30px;
+  }
+  .heroContent h3{
+    font-size: 25px;
+  }
   .hero::after {
     background-image: url("./components/data/images/home-bg.png");
     background-size: cover;
